@@ -3,7 +3,7 @@ import pickle
 import requests
 
 def poster(m_name):
-    api_key = '******'
+    api_key = '4103fa28'
     url = f"http://www.omdbapi.com/?t={m_name}&apikey={api_key}"
     data=requests.get(url)
     data=data.json()
